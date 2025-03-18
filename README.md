@@ -1,6 +1,6 @@
 # Simple Shell
 
-This is a project in which I create my own command line interpreter.
+This is a project in which I create my own command line interpreter. See below for run instructions.
 
 The implementation is quite simple. I capture user input and tokenize it. I then create the child process and call execvp() to execute the command/program that the user specified to execute, such as “ls” or “echo”. I then wait for the child process to terminate and print its exit status. 
 
